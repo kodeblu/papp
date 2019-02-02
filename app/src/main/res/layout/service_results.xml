@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/resultcards"
+    android:padding="5dp"
+    android:layout_marginTop="4dp"
+    android:id="@+id/info_card"
+    >
+
+        <TextView
+            android:id="@+id/result_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name: somebody"
+            android:textStyle="bold"
+            android:layout_gravity="top"
+            />
+    <ImageView
+        android:id="@+id/call2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/stat_sys_vp_phone_call"
+        android:layout_gravity="end"
+
+        />
+   <TextView
+
+        android:id="@+id/result_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Service(s): something"
+
+        android:visibility="gone"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/result_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="Address: somewhere"
+
+        />
+    <ImageView
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:src="@android:drawable/stat_sys_vp_phone_call" />
+</LinearLayout>
